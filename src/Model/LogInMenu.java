@@ -33,6 +33,7 @@ public class LogInMenu extends JFrame {
 
         add(formPanel, BorderLayout.CENTER);
         add(loginButton, BorderLayout.SOUTH);
+        setVisible(true);
     }
 
     public String getEmail() {

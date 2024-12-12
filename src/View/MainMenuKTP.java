@@ -1,8 +1,8 @@
 package View;
-import Controller.InputDataE_KTP;
+import Model.LogInMenu;
 
 public class MainMenuKTP {
-    public void showMenu(){
-        new InputDataE_KTP();
+    public void showMenu() {
+        new LogInMenu();
     }
 }
